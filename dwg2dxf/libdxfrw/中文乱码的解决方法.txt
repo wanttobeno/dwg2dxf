@@ -1,0 +1,22 @@
+void DRW_TextCodec::setCodePage(std::string *c, bool dxfFormat){
+	///////////////////////////////
+	// 强制使用中文编码，读写文件
+	cp == "ANSI_936";
+	conv = new DRW_ConvDBCSTable(DRW_Table936, DRW_LeadTable936,
+		DRW_DoubleTable936, CPLENGHT936);
+	return;
+	//////////////////////////////////
+    cp = correctCodePage(*c);
+    
+    
+
+
+
+
+
+
+
+
+
+
+

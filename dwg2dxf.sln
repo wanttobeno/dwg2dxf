@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdxfrw", "dwg2dxf\libdxfrw\libdxfrw.vcproj", "{BF27740C-D842-4DDB-95F2-24CAD74F4C74}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dwg2dxf", "dwg2dxf\dwg2dxf\dwg2dxf.vcproj", "{DC5459DD-D8D7-46B2-9FD5-E774B250E1A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF27740C-D842-4DDB-95F2-24CAD74F4C74} = {BF27740C-D842-4DDB-95F2-24CAD74F4C74}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF27740C-D842-4DDB-95F2-24CAD74F4C74}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF27740C-D842-4DDB-95F2-24CAD74F4C74}.Debug|Win32.Build.0 = Debug|Win32
+		{BF27740C-D842-4DDB-95F2-24CAD74F4C74}.Release|Win32.ActiveCfg = Release|Win32
+		{BF27740C-D842-4DDB-95F2-24CAD74F4C74}.Release|Win32.Build.0 = Release|Win32
+		{DC5459DD-D8D7-46B2-9FD5-E774B250E1A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC5459DD-D8D7-46B2-9FD5-E774B250E1A9}.Debug|Win32.Build.0 = Debug|Win32
+		{DC5459DD-D8D7-46B2-9FD5-E774B250E1A9}.Release|Win32.ActiveCfg = Release|Win32
+		{DC5459DD-D8D7-46B2-9FD5-E774B250E1A9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
